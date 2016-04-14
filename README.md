@@ -23,7 +23,7 @@ Then, use the following functions to perform statistical analysis on your data.
 	console.log(sm.max(arr));	   // 13
 	console.log(sm.range(arr));    // 5
 
-	console.log(sm.variance(arr)); //2.0555555555555554,
+	console.log(sm.variance(arr)); // 2.0555555555555554,
 	console.log(sm.stddev(arr));   // 1.4337208778404378,
 
 	console.log(sm.sum(arr));	   // 105
