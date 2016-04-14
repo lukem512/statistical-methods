@@ -1,0 +1,34 @@
+{
+  "name": "statistical-methods",
+  "version": "1.0.1",
+  "description": "A collection of statistical methods including mean, mode, median, range, variance, standard deviation, sum and product",
+  "main": "src/statistical-methods.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lukem512/statistical-methods.git"
+  },
+  "keywords": [
+    "statistics",
+    "methods",
+    "stats",
+    "mean",
+    "variance",
+    "sample",
+    "standard",
+    "deviation",
+    "sum",
+    "product",
+    "mode",
+    "median",
+    "range"
+  ],
+  "author": "Luke Mitchell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lukem512/statistical-methods/issues"
+  },
+  "homepage": "https://github.com/lukem512/statistical-methods"
+}
