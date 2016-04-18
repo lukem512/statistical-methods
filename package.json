@@ -1,6 +1,6 @@
 {
   "name": "statistical-methods",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A collection of statistical methods including mean, mode, median, range, variance, standard deviation, sum and product",
   "main": "src/statistical-methods.js",
   "scripts": {
