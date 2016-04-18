@@ -71,7 +71,7 @@ var tests = [
 ];
 
 
-var passed = true;
+var returnCode = 0;
 
 tests.forEach(function(t) {
 	Object.keys(t.expected).forEach(function(o) {
@@ -89,12 +89,9 @@ tests.forEach(function(t) {
 		}
 		catch (err) {
 			console.error(t.name, err);
-			passed = false;
+			returnCode = 1;
 		}
 	});
 });
 
-if (passed) console.log('Tests succeeded');
-else console.log('Tests failed');
-
-return passed;
+process.exit(returnCode);
