@@ -20,7 +20,7 @@ console.log(sm.median(arr)); // 10.5
 console.log(sm.mode(arr)); // [10, 11]
 
 console.log(sm.min(arr)); // 8
-console.log(sm.max(arr));	// 13
+console.log(sm.max(arr)); // 13
 console.log(sm.range(arr)); // 5
 
 console.log(sm.variance(arr)); // 2.0555555555555554,
