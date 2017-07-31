@@ -15,19 +15,19 @@ Then, use the following functions to perform statistical analysis on your data.
 ```js
 var arr = [ 8, 9, 10, 10, 10, 11, 11, 11, 12, 13];
 
-console.log(sm.mean(arr));     // 10.5
-console.log(sm.median(arr));   // 10.5
-console.log(sm.mode(arr));     // [10, 11]
+console.log(sm.mean(arr)); // 10.5
+console.log(sm.median(arr)); // 10.5
+console.log(sm.mode(arr)); // [10, 11]
 
-console.log(sm.min(arr));	   // 8
-console.log(sm.max(arr));	   // 13
-console.log(sm.range(arr));    // 5
+console.log(sm.min(arr)); // 8
+console.log(sm.max(arr));	// 13
+console.log(sm.range(arr)); // 5
 
 console.log(sm.variance(arr)); // 2.0555555555555554,
-console.log(sm.stddev(arr));   // 1.4337208778404378,
+console.log(sm.stddev(arr)); // 1.4337208778404378,
 
-console.log(sm.sum(arr));	   // 105
-console.log(sm.prod(arr));	   // 14949792000
+console.log(sm.sum(arr)); // 105
+console.log(sm.prod(arr)); // 14949792000
 ```
 
 The expected data format for all functions is an array of numbers (integers or floats).
